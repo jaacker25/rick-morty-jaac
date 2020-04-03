@@ -5,6 +5,10 @@ import {withRouter} from 'react-router-dom'
 import Page from './page';
 
 class AppBar extends Component{
+
+
+
+
 render(){
     const {suggestions}=this.props;
 

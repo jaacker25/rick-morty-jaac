@@ -1,0 +1,90 @@
+.Home{
+    background-color:#161616;
+    }
+    .headerHome{
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-image: url("https://res.cloudinary.com/jaacker25/image/upload/v1585912899/rickMorty/964446-download-rick-and-morty-season-3-wallpapers-1920x1090-full-hd_lf8dii.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+.HomeDescription{
+    
+    color: #36b1c8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.TopDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollDownImage{
+    margin-top: 25px;
+    opacity: 0.5;
+    transform: scale();
+    
+}
+
+.descTopText{
+    font-size: 2.5rem;
+    opacity: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.descClimax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.descClimaxText{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    }
+.descClimaxText p{    
+    font-size: 1.5rem;
+    width: 85%;
+    text-align: center;
+    line-height : 50px;
+    }
+
+    .HomeHr{
+    margin-top: 35px;
+    border: 1px solid #36b1c8;
+    width: 95%;
+    opacity: 0.2;
+    }
+    
+    .HomeFooter{
+    height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+    .HomeFooter  p{
+    color:#36b1c8;
+    opacity: 0.5;
+    }
